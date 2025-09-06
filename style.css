@@ -1,0 +1,32 @@
+
+.navbar-brand img{
+    width: 130px;
+}
+
+.features-item img{
+    width: 50px;
+    height: auto;
+}
+
+.subrise{
+    background-image: url(./img/subscribe.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.brands-icon img{
+    width: 130px;
+}
+
+.copy-right{
+    background-color: black;
+}
+
+.sign-up{
+    background-color: #FFFFFF4D;
+}
+
+.bongmo{
+    backdrop-filter: blur(8px);
+    background-color: #cccccc13;
+}
