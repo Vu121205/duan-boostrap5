@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dự án 5 boostrap tuhoc.cc</title>
+    <!-- boostrap offline -->
+    <link rel="stylesheet" href="./asset/bootstrap/css/bootstrap.min.css" />
+
+    <!-- my style -->
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" />
+  </head>
+  <body>
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg bg-light border-bottom fixed-top">
+      <div class="container">
+        <!-- logo navbar -->
+        <nav class="navbar bg-body-tertiary">
+          <div class="container">
+            <a class="navbar-brand" href="#">
+              <img src="./img/logo-tuhoc-light.png" alt="Logo boostrap" />
+            </a>
+          </div>
+        </nav>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- !Menu item -->
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Khóa học</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Contact</a>
+            </li>
+          </ul>
+
+          <!-- btn dùng thẻ a (Đăng ký và đăng nhập) -->
+          <div class="me-1 mb-2 mb-lg-0 d-flex flex-column gap-1 flex-md-row">
+            <a href="#!" class="btn btn-danger btn-sm d-inline-flex justify-content-center align-items-center">
+              <i class="fa-solid fa-user-plus me-1" style="color: #ededed"></i>
+              Sign up for free
+            </a>
+
+            <a href="#!" class="btn btn-warning btn-sm d-inline-flex justify-content-center align-items-center">
+              <i class="fa-solid fa-right-to-bracket me-1" style="color: #e7eaee"></i>
+              Login
+            </a>
+          </div>
+
+          <!-- !Form search -->
+          <form class="d-flex" role="search">
+            <input class="form-control form-control-sm m-0" type="search" placeholder="Search for.." aria-label="Search" />
+            <button class="btn btn-outline-success btn-sm" type="submit">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 512 512">
+                <!--!Font Awesome Free v7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                <path
+                  fill="#ffffff"
+                  d="M480 272C480 317.9 465.1 360.3 440 394.7L566.6 521.4C579.1 533.9 579.1 554.2 566.6 566.7C554.1 579.2 533.8 579.2 521.3 566.7L394.7 440C360.3 465.1 317.9 480 272 480C157.1 480 64 386.9 64 272C64 157.1 157.1 64 272 64C386.9 64 480 157.1 480 272zM272 416C351.5 416 416 351.5 416 272C416 192.5 351.5 128 272 128C192.5 128 128 192.5 128 272C128 351.5 192.5 416 272 416z"
+                />
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- nav end -->
+
+    <!-- header start-->
+    <section class="py-5 pb-5 border-bottom">
+      <div class="container">
+        <div class="row align-items-center gx-md-5">
+          <!-- text -->
+          <div class="col-md-6">
+            <h1 class="fs-3 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime alias nulla minus sunt similique</h1>
+            <h2 class="fs-5 fw-light text-secondary">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur, debitis mollitia laudantium tenetur, tempora obcaecati provident voluptatum
+            </h2>
+            <a href="#!" class="text-decoration-none btn btn-sm btn-success d-inline-flex justify-content-center align-items-center mt-3 mb-3 mb-md-0">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="19px" height="19px" class="me-1">
+                <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                <path
+                  fill="#e7eaee"
+                  d="M136 192C136 125.7 189.7 72 256 72C322.3 72 376 125.7 376 192C376 258.3 322.3 312 256 312C189.7 312 136 258.3 136 192zM48 546.3C48 447.8 127.8 368 226.3 368L285.7 368C384.2 368 464 447.8 464 546.3C464 562.7 450.7 576 434.3 576L77.7 576C61.3 576 48 562.7 48 546.3zM544 160C557.3 160 568 170.7 568 184L568 232L616 232C629.3 232 640 242.7 640 256C640 269.3 629.3 280 616 280L568 280L568 328C568 341.3 557.3 352 544 352C530.7 352 520 341.3 520 328L520 280L472 280C458.7 280 448 269.3 448 256C448 242.7 458.7 232 472 232L520 232L520 184C520 170.7 530.7 160 544 160z"
+                />
+              </svg>
+              Sign-up to Get Started
+            </a>
+          </div>
+
+          <!-- image -->
+          <div class="col-md-6">
+            <div>
+              <img src="./img/main-header.jpg" alt="Home" class="img-fluid shadow-sm rounded-1" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- header end -->
+
+    <!-- welcome start -->
+    <section class="py-5">
+      <div class="container">
+        <!-- read about our journey -->
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <h3 class="fs-4 fw-normal text-center">Welcome to TuHoc.CC</h3>
+            <p class="text-secondary small text-center">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum cum sint nobis accusamus at voluptatibus rerum provident eius. Iusto reiciendis quod blanditiis optio commodi, recusandae
+              nulla aliquam repellendus pariatur! At?
+            </p>
+            <div class="d-flex justify-content-center">
+              <a href="" class="text-decoration-none btn btn-sm btn-success">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" widthh="19px" height="19px" class="justify-content-center align-items-center">
+                  <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                  <path
+                    fill="#e6e7ea"
+                    d="M192 112L304 112L304 200C304 239.8 336.2 272 376 272L464 272L464 512C464 520.8 456.8 528 448 528L192 528C183.2 528 176 520.8 176 512L176 128C176 119.2 183.2 112 192 112zM352 131.9L444.1 224L376 224C362.7 224 352 213.3 352 200L352 131.9zM192 64C156.7 64 128 92.7 128 128L128 512C128 547.3 156.7 576 192 576L448 576C483.3 576 512 547.3 512 512L512 250.5C512 233.5 505.3 217.2 493.3 205.2L370.7 82.7C358.7 70.7 342.5 64 325.5 64L192 64zM248 320C234.7 320 224 330.7 224 344C224 357.3 234.7 368 248 368L392 368C405.3 368 416 357.3 416 344C416 330.7 405.3 320 392 320L248 320zM248 416C234.7 416 224 426.7 224 440C224 453.3 234.7 464 248 464L392 464C405.3 464 416 453.3 416 440C416 426.7 405.3 416 392 416L248 416z"
+                  />
+                </svg>
+                Read about our journey
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- content start -->
+        <div class="row mt-5 align-items-center">
+          <!-- image -->
+          <div class="col-md-4 mb-3 mb-md-0">
+            <img src="./img/main-header.jpg" alt="Home" class="w-100 rounded-1">
+          </div>
+          <!-- content -->
+          <div class="col-md-4">
+            <p class="text-secondary small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, dolorem voluptas alias animi beatae quibusdam ab iusto minima corrupti dolores, incidunt laborum laboriosam facere cum, veritatis dolore? Sed, ratione doloribus?</p>
+            <p class="text-secondary small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, dolorem voluptas alias animi beatae quibusdam ab iusto minima corrupti dolores, incidunt laborum laboriosam facere cum, veritatis dolore? Sed, ratione doloribus?</p>
+          </div>
+          <div class="col-md-4">
+            <p class="text-secondary small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, dolorem voluptas alias animi beatae quibusdam ab iusto minima corrupti dolores, incidunt laborum laboriosam facere cum, veritatis dolore? Sed, ratione doloribus?</p>
+            <p class="text-secondary small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, dolorem voluptas alias animi beatae quibusdam ab iusto minima corrupti dolores, incidunt laborum laboriosam facere cum, veritatis dolore? Sed, ratione doloribus?</p>
+          </div>
+
+        </div>
+        <!-- content end -->        
+      </div>
+    </section>
+    <!-- welcome end -->
+
+    <!-- subrise start -->
+    <section class="subrise py-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <!-- text -->
+          <div class="col-md-4 text-center text-md-0 text-md-end mb-3 mb-md-0">
+            <h5 class="fs-4 fw-light text-white">Subscribe for newsletters</h5>
+          </div>
+
+          <!-- form email -->
+          <div class="col-md-4">
+            <div class="input-group flex-nowrap">
+              <input type="email" class="form-control" placeholder="Your email" aria-label="Username" aria-describedby="addon-wrapping" />
+              <button type="button" class="btn btn-success btn-sm d-inline-flex justify-content-center align-items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" weight="16px" height="16px" class="d-flex justify-content-center align-items-center pe-1 rounded-2">
+                  <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                  <path
+                    fill="#ededee"
+                    d="M64 176C64 149.5 85.5 128 112 128L528 128C554.5 128 576 149.5 576 176L576 257.4C551.6 246.2 524.6 240 496 240C408.3 240 334.3 298.8 311.3 379.2C304.2 377.9 297.2 375 291.2 370.4L83.2 214.4C71.1 205.3 64 191.1 64 176zM304 432C304 460.6 310.2 487.6 321.4 512L128 512C92.7 512 64 483.3 64 448L64 260L262.4 408.8C275 418.2 289.3 424.2 304.1 426.7C304.1 428.5 304 430.2 304 432zM352 432C352 352.5 416.5 288 496 288C575.5 288 640 352.5 640 432C640 511.5 575.5 576 496 576C416.5 576 352 511.5 352 432zM553.4 371.1C546.3 365.9 536.2 367.5 531 374.6L478 447.5L451.2 420.7C445 414.5 434.8 414.5 428.6 420.7C422.4 426.9 422.4 437.1 428.6 443.3L468.6 483.3C471.9 486.6 476.5 488.3 481.2 487.9C485.9 487.5 490.1 485.1 492.9 481.4L556.9 393.4C562.1 386.3 560.5 376.2 553.4 371.1z"
+                  />
+                </svg>
+                Subscribe
+              </button>
+            </div>
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- subrise end -->
+
+    <!-- footer start -->
+    <footer class="main-footer text-bg-dark py-5 small">
+      <div class="container">
+        <div class="row">
+          <!-- logo và địa chỉ -->
+          <div class="col-md-3">
+            <div class="brands-icon">
+              <!-- Với ảnh khác chưa được xử lý hãy điều chỉnh ảnh lại với kích thước width: 130px -->
+              <img src="./img/logo-tuhoc-dark.png" alt="logo" />
+            </div>
+            <address class="text-secondary small mt-2">
+              Jayanagar, Bangalore,
+              <br />
+              Karnataka, India.
+              <br />
+              560011
+            </address>
+            <p class="small text-secondary">contact@tuhoc.cc</p>
+          </div>
+
+          <!-- Main menu -->
+          <div class="col-md-2">
+            <h6>Main menu</h6>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#!" class="text-decoration-none text-secondary">link item</a>
+              </li>
+              <li>
+                <a href="#!" class="text-decoration-none text-secondary">link item</a>
+              </li>
+              <li>
+                <a href="#!" class="text-decoration-none text-secondary">link item</a>
+              </li>
+              <li>
+                <a href="#!" class="text-decoration-none text-secondary">link item</a>
+              </li>
+              <li>
+                <a href="#!" class="text-decoration-none text-secondary">link item</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Misc -->
+          <div class="col-md-2">
+            <h6>Misc</h6>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#!" class="text-decoration-none text-secondary">link item</a>
+              </li>
+              <li>
+                <a href="#!" class="text-decoration-none text-secondary">link item</a>
+              </li>
+              <li>
+                <a href="#!" class="text-decoration-none text-secondary">link item</a>
+              </li>
+              <li>
+                <a href="#!" class="text-decoration-none text-secondary">link item</a>
+              </li>
+              <li>
+                <a href="#!" class="text-decoration-none text-secondary">link item</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Follow us -->
+          <div class="col-md-5">
+            <h6>Follow us</h6>
+            <!-- brands -->
+            <div>
+              <!-- facebook -->
+              <a href="#!" class="btn btn-primary rounded-pill mb-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="19px" height="19px">
+                  <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                  <path
+                    fill="#ffffff"
+                    d="M576 320C576 178.6 461.4 64 320 64C178.6 64 64 178.6 64 320C64 440 146.7 540.8 258.2 568.5L258.2 398.2L205.4 398.2L205.4 320L258.2 320L258.2 286.3C258.2 199.2 297.6 158.8 383.2 158.8C399.4 158.8 427.4 162 438.9 165.2L438.9 236C432.9 235.4 422.4 235 409.3 235C367.3 235 351.1 250.9 351.1 292.2L351.1 320L434.7 320L420.3 398.2L351 398.2L351 574.1C477.8 558.8 576 450.9 576 320z"
+                  />
+                </svg>
+                <span class="d-md-inline-block d-none">facebook</span>
+              </a>
+
+              <!-- Twitter -->
+              <a href="#!" class="btn btn-info rounded-pill mb-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="19px" height="19px">
+                  <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                  <path
+                    d="M523.4 215.7C523.7 220.2 523.7 224.8 523.7 229.3C523.7 368 418.1 527.9 225.1 527.9C165.6 527.9 110.4 510.7 64 480.8C72.4 481.8 80.6 482.1 89.3 482.1C138.4 482.1 183.5 465.5 219.6 437.3C173.5 436.3 134.8 406.1 121.5 364.5C128 365.5 134.5 366.1 141.3 366.1C150.7 366.1 160.1 364.8 168.9 362.5C120.8 352.8 84.8 310.5 84.8 259.5L84.8 258.2C98.8 266 115 270.9 132.2 271.5C103.9 252.7 85.4 220.5 85.4 184.1C85.4 164.6 90.6 146.7 99.7 131.1C151.4 194.8 229 236.4 316.1 240.9C314.5 233.1 313.5 225 313.5 216.9C313.5 159.1 360.3 112 418.4 112C448.6 112 475.9 124.7 495.1 145.1C518.8 140.6 541.6 131.8 561.7 119.8C553.9 144.2 537.3 164.6 515.6 177.6C536.7 175.3 557.2 169.5 576 161.4C561.7 182.2 543.8 200.7 523.4 215.7z"
+                  />
+                </svg>
+                <span class="d-md-inline-block d-none">Twitter</span>
+              </a>
+
+              <!-- Youtube -->
+              <a href="#!" class="btn btn-danger rounded-pill mb-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="19px" height="19px">
+                  <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                  <path
+                    fill="#dbdde1"
+                    d="M581.7 188.1C575.5 164.4 556.9 145.8 533.4 139.5C490.9 128 320.1 128 320.1 128C320.1 128 149.3 128 106.7 139.5C83.2 145.8 64.7 164.4 58.4 188.1C47 231 47 320.4 47 320.4C47 320.4 47 409.8 58.4 452.7C64.7 476.3 83.2 494.2 106.7 500.5C149.3 512 320.1 512 320.1 512C320.1 512 490.9 512 533.5 500.5C557 494.2 575.5 476.3 581.8 452.7C593.2 409.8 593.2 320.4 593.2 320.4C593.2 320.4 593.2 231 581.8 188.1zM264.2 401.6L264.2 239.2L406.9 320.4L264.2 401.6z"
+                  />
+                </svg>
+                <span class="d-md-inline-block d-none">Youtube</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
+
+    <!-- copyright start -->
+    <div class="copy-right py-4">
+      <div class="container">
+        <div class="row small">
+          <p class="m-0 text-center text-white small">Copyright © 2030. Gà Lại Lập Trình</p>
+        </div>
+      </div>
+    </div>
+    <!-- copyright end -->
+
+    <!-- Phần lề dưới cùng khi fixed hiện ra sẽ không bị mất phần copy-right -->
+    <div class="pt-5 pb-4 d-md-none d-block" style="background: #000"></div>
+
+    <!-- sticky Footer start -->
+    <div class="d-block d-md-none d-flex justify-content-center p-3 fixed-bottom bongmo">
+      <a href="#!" class="btn btn-warning btn-sm fw-bold rounded-pill px-2 d-inline-block align-items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="16px" height="16px">
+          <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+          <path
+            d="M286 368C384.5 368 464.3 447.8 464.3 546.3C464.3 562.7 451 576 434.6 576L78 576C61.6 576 48.3 562.7 48.3 546.3C48.3 447.8 128.1 368 226.6 368L286 368zM585.7 169.9C593.5 159.2 608.5 156.8 619.2 164.6C629.9 172.4 632.3 187.4 624.5 198.1L522.1 338.9C517.9 344.6 511.4 348.3 504.4 348.7C497.4 349.1 490.4 346.5 485.5 341.4L439.1 293.4C429.9 283.9 430.1 268.7 439.7 259.5C449.2 250.3 464.4 250.6 473.6 260.1L500.1 287.5L585.7 169.8zM256.3 312C190 312 136.3 258.3 136.3 192C136.3 125.7 190 72 256.3 72C322.6 72 376.3 125.7 376.3 192C376.3 258.3 322.6 312 256.3 312z"
+          />
+        </svg>
+        <span>Sign-up for free</span>
+      </a>
+    </div>
+    <!-- sticky Footer end -->
+
+    <!-- nhúng js offline -->
+    <script src="./asset/bootstrap/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
