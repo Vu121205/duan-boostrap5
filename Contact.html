@@ -14,7 +14,7 @@
     <!-- link font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" />
   </head>
-  <body>
+  <body class="mt-5">
     <!-- nav -->
     <nav class="navbar navbar-expand-lg bg-light border-bottom fixed-top">
       <div class="container">
@@ -92,164 +92,127 @@
     </nav>
     <!-- nav end -->
 
-    <!-- header start-->
-    <section class="py-5 border-bottom my-5">
+    <!--header start  -->
+    <header class="py-5">
       <div class="container">
-        <div class="row align-items-center gx-md-5">
-          <!-- text -->
+        <!-- content -->
+        <div class="row justify-content-center mt-5">
           <div class="col-md-6">
-            <h1 class="fs-3 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime alias nulla minus sunt similique</h1>
-            <h2 class="fs-5 fw-light text-secondary">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur, debitis mollitia laudantium tenetur, tempora obcaecati provident voluptatum
-            </h2>
+            <h1 class="fs-3 fw-light text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia dignissimos aut</h1>
+            <h2 class="fs-6 fw-normal text-secondary text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum impedit blanditiis dolore modi doloremque adipisci voluptas</h2>
+          </div>
+        </div>
 
-            <!-- form search -->
-            <div class="input-group mb-3 mb-md-0">
-              <input type="search" class="form-control form-control-sm" placeholder="Search for..." aria-label="Username" aria-describedby="addon-wrapping" />
-              <button type="button " class="btn btn-sm btn-success">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="19px" height="19px">
-                  <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-                  <path
-                    fill="#ecedee"
-                    d="M480 272C480 317.9 465.1 360.3 440 394.7L566.6 521.4C579.1 533.9 579.1 554.2 566.6 566.7C554.1 579.2 533.8 579.2 521.3 566.7L394.7 440C360.3 465.1 317.9 480 272 480C157.1 480 64 386.9 64 272C64 157.1 157.1 64 272 64C386.9 64 480 157.1 480 272zM272 416C351.5 416 416 351.5 416 272C416 192.5 351.5 128 272 128C192.5 128 128 192.5 128 272C128 351.5 192.5 416 272 416z"
-                  />
-                </svg>
-              </button>
+        <!-- card -->
+        <div class="row justify-content-center align-items-center py-5">
+          <!-- card FAQ -->
+          <div class="col-md-4 mb-4 mb-md-0">
+            <div class="card">
+              <div class="card-header text-center">F.A.Q</div>
+              <div class="card-body text-center py-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias porro dolorum quibusdam quisquam consequatur</div>
+              <div class="card-footer d-flex justify-content-center">               
+                  <a href="./Faq.html" class="btn btn-success btn-sm">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="19px" height="19px">
+                      <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                      <path
+                        fill="#edeff2"
+                        d="M320 576C461.4 576 576 461.4 576 320C576 178.6 461.4 64 320 64C178.6 64 64 178.6 64 320C64 461.4 178.6 576 320 576zM320 240C302.3 240 288 254.3 288 272C288 285.3 277.3 296 264 296C250.7 296 240 285.3 240 272C240 227.8 275.8 192 320 192C364.2 192 400 227.8 400 272C400 319.2 364 339.2 344 346.5L344 350.3C344 363.6 333.3 374.3 320 374.3C306.7 374.3 296 363.6 296 350.3L296 342.2C296 321.7 310.8 307 326.1 302C332.5 299.9 339.3 296.5 344.3 291.7C348.6 287.5 352 281.7 352 272.1C352 254.4 337.7 240.1 320 240.1zM288 432C288 414.3 302.3 400 320 400C337.7 400 352 414.3 352 432C352 449.7 337.7 464 320 464C302.3 464 288 449.7 288 432z"
+                      />
+                    </svg>
+                    See FAQ's
+                  </a>               
+              </div>
             </div>
           </div>
-          <!-- image -->
-          <div class="col-md-6">
-            <div>
-              <img src="./img/main-header.jpg" alt="Home" class="img-fluid shadow-sm rounded-1" />
+          <!-- Regarding the course -->
+          <div class="col-md-4 mb-4 mb-md-0">
+            <div class="card">
+              <div class="card-header text-center">Regarding the course</div>
+              <div class="card-body text-center py-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias porro dolorum quibusdam quisquam consequatur</div>
+              <div class="card-footer d-flex justify-content-center">
+                <button type="submit" class="btn btn-success btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="19px" height="19px">
+                    <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                    <path
+                      fill="#e9eaed"
+                      d="M320 576C178.6 576 64 461.4 64 320C64 178.6 178.6 64 320 64C461.4 64 576 178.6 576 320C576 461.4 461.4 576 320 576zM320 384C302.3 384 288 398.3 288 416C288 433.7 302.3 448 320 448C337.7 448 352 433.7 352 416C352 398.3 337.7 384 320 384zM320 192C301.8 192 287.3 207.5 288.6 225.7L296 329.7C296.9 342.3 307.4 352 319.9 352C332.5 352 342.9 342.3 343.8 329.7L351.2 225.7C352.5 207.5 338.1 192 319.8 192z"
+                    />
+                  </svg>
+                  Get Help
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- Freelance Project -->
+          <div class="col-md-4 mb-4 mb-md-0">
+            <div class="card">
+              <div class="card-header text-center">Freelance Project</div>
+              <div class="card-body text-center py-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias porro dolorum quibusdam quisquam consequatur</div>
+              <div class="card-footer d-flex justify-content-center">
+                <button type="submit" class="btn btn-success btn-sm">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="19px" height="19px">
+                    <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                    <path
+                      fill="#ebedef"
+                      d="M568.4 37.7C578.2 34.2 589 36.7 596.4 44C603.8 51.3 606.2 62.2 602.7 72L424.7 568.9C419.7 582.8 406.6 592 391.9 592C377.7 592 364.9 583.4 359.6 570.3L295.4 412.3C290.9 401.3 292.9 388.7 300.6 379.7L395.1 267.3C400.2 261.2 399.8 252.3 394.2 246.7C388.6 241.1 379.6 240.7 373.6 245.8L261.2 340.1C252.1 347.7 239.6 349.7 228.6 345.3L70.1 280.8C57 275.5 48.4 262.7 48.4 248.5C48.4 233.8 57.6 220.7 71.5 215.7L568.4 37.7z"
+                    />
+                  </svg>
+                  Send Request
+                </button>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </header>
     <!-- header end -->
 
-    <!-- Course start -->
-    <section class="pb-5">
-      <div class="container">
-        <div class="row">
-          <!-- Khối bên trái -->
-          <div class="col-md-3">
-            <div class="list-group">
-              <div class="list-group-item fw-bold">Course Categories</div>
-              <a href="#!" class="list-group-item d-flex justify-content-between align-items-center">
-                Premium Courses
-                <span class="badge text-bg-warning rounded-pill">14</span>
-              </a>
-              <a href="#!" class="list-group-item d-flex justify-content-between align-items-center">
-                Free Courses
-                <span class="badge text-bg-warning rounded-pill">1</span>
-              </a>
-            </div>
+    <!-- Modal dùng cho card Get Help phía trên-->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content card">
+          <div class="modal-header card-header  bg-black text-white fs-4 d-flex align-items-start">Get Help</div>
+          <div class="modal-body card-body">
+              <form>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="mb-2">
+                      <input type="text" name="" placeholder="First Name" class="form-control form-control-sm" />
+                    </div>
+                  </div>
 
-            <div class="list-group mt-3">
-              <div class="list-group-item fw-bold">Course by Topics</div>
-              <a href="#!" class="list-group-item d-flex justify-content-between align-items-center">
-                Coding
-                <span class="badge text-bg-warning rounded-pill">14</span>
-              </a>
-              <a href="#!" class="list-group-item d-flex justify-content-between align-items-center">
-                Programming
-                <span class="badge text-bg-warning rounded-pill">1</span>
-              </a>
-              <a href="#!" class="list-group-item d-flex justify-content-between align-items-center">
-                Design
-                <span class="badge text-bg-warning rounded-pill">1</span>
-              </a>
+                  <div class="col-md-6">
+                    <div class="mb-2">
+                      <input type="email" name="" placeholder="Last Name" class="form-control form-control-sm" />
+                    </div>
+                  </div>
+
+                  <div class="col-md-12">
+                    <div class="mb-2">
+                      <input type="text" name="" placeholder="Your email" class="form-control form-control-sm" />
+                    </div>
+                  </div>
+
+                  <div class="col-md-12">
+                    <div class="mb-2">
+                      <!-- textarea chính là ô nhập liệu văn bản, chúng ta có thể co giản kích thước -->
+                      <textarea name="" class="form-control form-control-sm" placeholder="Subject"></textarea>
+                    </div>
+                  </div>
+              </form>
             </div>
           </div>
-
-          <!-- Khối bên phải -->
-          <div class="col-md-9">
-            <div class="list-group mt-3 mt-md-0">
-              <div class="list-group-item fw-bold d-flex justify-content-between align-items-center">
-                List of all courses
-                <span class="badge text-bg-warning rounded-pill">24 Courses Available</span>
+          <div class="modal-footer card-footer">
+            <div class="col-12">
+                <button type="submit" class="btn btn-success btn-sm w-100">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="19px" height="19px" ><!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path fill="#e5e7eb" d="M112 128C85.5 128 64 149.5 64 176C64 191.1 71.1 205.3 83.2 214.4L291.2 370.4C308.3 383.2 331.7 383.2 348.8 370.4L556.8 214.4C568.9 205.3 576 191.1 576 176C576 149.5 554.5 128 528 128L112 128zM64 260L64 448C64 483.3 92.7 512 128 512L512 512C547.3 512 576 483.3 576 448L576 260L377.6 408.8C343.5 434.4 296.5 434.4 262.4 408.8L64 260z"/></svg>
+                  Subscrise
               </div>
-              <!-- item 1 -->
-              <a href="./single-course.html" class="list-group-item">
-                <div class="row align-items-center">
-                  <!-- image -->
-                  <div class="col-md-4 mt-2 mt-md-0">
-                    <img src="./img/main-header.jpg" alt="" class="w-100 rounded-1" />
-                  </div>
-                  <!-- Evaluate -->
-                  <div class="col-md-8 mt-2 mt-md-0">
-                    <h5>Lorem ipsum dolor, siqt amet consectetur adipisicing elit.</h5>
-                    <p class="text-secondary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur esse aperiam iusto ut voluptatem fuga, voluptates distinctio laboriosam error</p>
-                  </div>
-                </div>
-              </a>
-
-              <!-- item 2 -->
-              <a href="./single-course.html" class="list-group-item">
-                <div class="row align-items-center">
-                  <!-- image -->
-                  <div class="col-md-4 mt-2 mt-md-0">
-                    <img src="./img/pic1.jpg" alt="" class="w-100 rounded-1" />
-                  </div>
-                  <!-- Evaluate -->
-                  <div class="col-md-8 mt-2 mt-md-0">
-                    <h5>Lorem ipsum dolor, siqt amet consectetur adipisicing elit.</h5>
-                    <p class="text-secondary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur esse aperiam iusto ut voluptatem fuga, voluptates distinctio laboriosam error</p>
-                  </div>
-                </div>
-              </a>
-
-              <!-- item 3 -->
-              <a href="./single-course.html" class="list-group-item">
-                <div class="row align-items-center">
-                  <!-- image -->
-                  <div class="col-md-4 mt-2 mt-md-0">
-                    <img src="./img/pic2.jpg" alt="" class="w-100 rounded-1" />
-                  </div>
-                  <!-- Evaluate -->
-                  <div class="col-md-8 mt-2 mt-md-0">
-                    <h5>Lorem ipsum dolor, siqt amet consectetur adipisicing elit.</h5>
-                    <p class="text-secondary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur esse aperiam iusto ut voluptatem fuga, voluptates distinctio laboriosam error</p>
-                  </div>
-                </div>
-              </a>
-
-              <!-- item 4 -->
-              <a href="./single-course.html" class="list-group-item">
-                <div class="row align-items-center">
-                  <!-- image -->
-                  <div class="col-md-4 mt-2 mt-md-0">
-                    <img src="./img/pic3.jpg" alt="" class="w-100 rounded-1" />
-                  </div>
-                  <!-- Evaluate -->
-                  <div class="col-md-8 mt-2 mt-md-0">
-                    <h5>Lorem ipsum dolor, siqt amet consectetur adipisicing elit.</h5>
-                    <p class="text-secondary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur esse aperiam iusto ut voluptatem fuga, voluptates distinctio laboriosam error</p>
-                  </div>
-                </div>
-              </a>
-
-              <!-- item 5 -->
-              <a href="./single-course.html" class="list-group-item">
-                <div class="row align-items-center">
-                  <!-- image -->
-                  <div class="col-md-4 mt-2 mt-md-0">
-                    <img src="./img/main-header.jpg" alt="" class="w-100 rounded-1" />
-                  </div>
-                  <!-- Evaluate -->
-                  <div class="col-md-8 mt-2 mt-md-0">
-                    <h5>Lorem ipsum dolor, siqt amet consectetur adipisicing elit.</h5>
-                    <p class="text-secondary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur esse aperiam iusto ut voluptatem fuga, voluptates distinctio laboriosam error</p>
-                  </div>
-                </div>
-              </a>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- Course end -->
+    </div>
 
     <!--Subscribe start-->
     <section class="subscribe py-5">

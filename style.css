@@ -1,32 +1,42 @@
-
-.navbar-brand img{
-    width: 130px;
+.navbar-brand img {
+  width: 130px;
 }
 
-.features-item img{
-    width: 50px;
-    height: auto;
+.features-item img {
+  width: 50px;
+  height: auto;
 }
 
-.subrise{
-    background-image: url(./img/subscribe.jpg);
-    background-size: cover;
-    background-position: center;
+.subrise {
+  background-image: url(./img/subscribe.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
-.brands-icon img{
-    width: 130px;
+.subscribe {
+  background-image: url(./img/subscribe.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
-.copy-right{
-    background-color: black;
+.brands-icon img {
+  width: 130px;
 }
 
-.sign-up{
-    background-color: #FFFFFF4D;
+.copy-right {
+  background-color: black;
 }
 
-.bongmo{
-    backdrop-filter: blur(8px);
-    background-color: #cccccc13;
+.sign-up {
+  background-color: #ffffff4d;
+}
+
+.bongmo {
+  backdrop-filter: blur(8px);
+  background-color: #cccccc13;
+}
+
+.bong {
+  backdrop-filter: blur(5px);
+  background-color: #cccccc13;
 }
